@@ -1,0 +1,25 @@
+:root {
+  --lab-ink: #173b46;
+  --lab-accent: #138496;
+}
+body { line-height: 1.65; }
+.quarto-title-banner { padding-top: 2.5rem; padding-bottom: 2.5rem; }
+.quarto-title .title { font-weight: 700; letter-spacing: -0.025em; }
+.quarto-title .subtitle { opacity: 0.9; }
+h2 { color: var(--lab-ink); margin-top: 2.4rem; border-bottom: 2px solid #deebee; padding-bottom: 0.4rem; }
+h3 { color: var(--lab-ink); margin-top: 1.7rem; }
+a { color: #087b8e; }
+pre.sourceCode { border-left: 3px solid var(--lab-accent); border-radius: 0.3rem; }
+.cell-output-display { margin-bottom: 1.2rem; overflow-x: auto; }
+.cell-output-display img { display: block; max-width: 100%; height: auto; margin-inline: auto; }
+.cell-output-display table { width: 100%; font-size: 0.92rem; }
+.cell-output-display th { background: #edf5f6; color: var(--lab-ink); }
+.cell-output-display td, .cell-output-display th { padding: 0.45rem 0.65rem; border-bottom: 1px solid #dfe9eb; text-align: left; }
+table { font-size: 0.93rem; }
+figcaption { color: #52666e; font-size: 0.92rem; }
+#TOC { font-size: 0.9rem; }
+@media print {
+  .cell-output-display { overflow: visible; }
+  h2, h3 { break-after: avoid; }
+  figure { break-inside: avoid; }
+}
